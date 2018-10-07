@@ -22,3 +22,9 @@ Run successful script (using `lerna exec yarn`):
 ```sh
 $ docker run --rm lerna-bootstrap-issue scripts/successful
 ```
+
+If you want to open a shell session in the Docker container, run:
+
+```sh
+$ docker run --rm -ti lerna-bootstrap-issue bash
+```
