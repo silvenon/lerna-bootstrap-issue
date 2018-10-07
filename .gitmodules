@@ -1,0 +1,4 @@
+[submodule "mdx"]
+	path = mdx
+	url = git://github.com/silvenon/mdx.git
+	branch = lerna-bootstrap-issue
