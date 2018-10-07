@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd mdx && \
+  yarn && yarn lerna exec yarn && yarn lerna link && \
+  yarn lerna run test

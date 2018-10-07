@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd mdx && \
+  yarn && yarn lerna bootstrap && \
+  yarn lerna run test
